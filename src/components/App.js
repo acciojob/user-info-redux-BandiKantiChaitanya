@@ -21,9 +21,9 @@ const App = () => {
     <label htmlFor="">Email:</label>
     <input type="email" onChange={(e)=>{dispatch(setEmail(e.target.value))}}  />
 
-    <p className="output" >Current values in store:</p>
-    <p>Name - {username}</p>
-    <p>Email - {email}</p>
+    <p  >Current values in store:</p>
+    <p className="output" >Name - {username}</p>
+    <p className="output">Email - {email}</p>
     </div>
   )
 }
