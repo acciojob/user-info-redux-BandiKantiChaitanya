@@ -22,8 +22,8 @@ const App = () => {
     <input type="email" onChange={(e)=>{dispatch(setEmail(e.target.value))}}  />
 
     <p className="output" >Current values in store:</p>
-    <p>Name-{username}</p>
-    <p>Email-{email}</p>
+    <p>Name - {username}</p>
+    <p>Email - {email}</p>
     </div>
   )
 }
